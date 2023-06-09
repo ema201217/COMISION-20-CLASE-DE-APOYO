@@ -1,0 +1,19 @@
+{
+  "name": "clase6-part1",
+  "version": "1.0.0",
+  "description": "SERVER EXPRESS",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ema201217/clase6-express.git"
+  },
+  "author": "COMISIÓN 20",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ema201217/clase6-express/issues"
+  },
+  "homepage": "https://github.com/ema201217/clase6-express#readme"
+}
