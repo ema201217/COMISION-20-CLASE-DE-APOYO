@@ -4,7 +4,8 @@
   "description": "SERVER EXPRESS",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ema201217/clase6-express/issues"
   },
-  "homepage": "https://github.com/ema201217/clase6-express#readme"
+  "homepage": "https://github.com/ema201217/clase6-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
