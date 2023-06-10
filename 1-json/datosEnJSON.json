@@ -1,0 +1,7 @@
+[
+  123,"hola",true,false,null,
+  {
+    "nombre":"Emanuel",
+    "hobbies": ["kashjdsakhj","lasasl","sdasdj",{}]
+  }
+]

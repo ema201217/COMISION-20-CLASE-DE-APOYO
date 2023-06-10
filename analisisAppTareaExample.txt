@@ -1,0 +1,12 @@
+APP TAREAS
+
+1 - lista por consola
+  a) exista algo que se lea (archivo json) [{},{}] {} -> productos
+  b) string -> formato javascript
+  c) recorrerlo cada producto -> for
+  d) cada uno que se recorre debo mostrarlo por consola con el indice que corresponda  --> producto[indice]
+
+1.1 - crear una función que lea el json y me la parsee.
+
+2 - crear un producto
+   a) usaría la función que lea el json y me lo parsee.
