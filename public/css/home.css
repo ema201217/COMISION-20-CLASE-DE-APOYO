@@ -1,0 +1,37 @@
+.home {
+  background-color: black;
+}
+
+.home .titulo {
+  color: white;
+}
+
+.home header {
+  background-color: azure;
+}
+
+.home nav {
+  background-color: pink;
+  padding: 20px;
+}
+
+.home nav .lista {
+  background-color: aquamarine;
+}
+
+.home nav .lista .lista-item {
+
+}
+
+
+.home .lista-item .contenedor-logo {
+
+}
+
+.home .lista-item .contenedor-logo .logo{
+
+}
+
+
+
+
