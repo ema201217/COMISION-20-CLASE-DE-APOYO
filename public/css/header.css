@@ -1,0 +1,93 @@
+header {
+  background-color: var(--amarillo);
+  padding: 30px 10px 20px;
+}
+
+/* LOGO */
+header figure {
+  width: 200px;
+}
+
+header figure img {
+  width: 100%;
+}
+
+
+/* BUSCADOR */
+header form.contenedor-buscador {}
+
+header form.contenedor-buscador input {
+  display: block;
+}
+
+header form.contenedor-buscador button {
+  margin-top: 2px;
+  border-radius: 3px;
+  padding: 2px;
+}
+
+header form.contenedor-buscador button i {}
+
+/* COMPRA */
+header .contenedor-compra {
+  text-align: center;
+  margin-top: 8px;
+}
+
+header .contenedor-compra i {}
+
+header .contenedor-compra span.text {
+  /* font-weight: 600; */
+  /* font-size: .7rem; */
+}
+
+
+/* MENU */
+header .contenedor-menu {}
+
+header .contenedor-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+header .contenedor-menu ul li {}
+
+header .contenedor-menu ul li a {}
+
+
+/* OPCIONES */
+
+header .contenedor-opciones {
+    margin-top: 20px;
+}
+
+header .contenedor-opciones ul {
+  list-style: none;
+  padding: 0;
+}
+
+header .contenedor-opciones ul li {}
+
+header .contenedor-opciones ul li a {}
+
+header .contenedor-opciones ul li a i {
+  margin-left: 7px;
+}
+
+/* BURGER MENU */
+
+header .container-burger-menu {
+  text-align: center;
+}
+
+header button.burger-menu {
+  border: none;
+  background-color: var(--celeste);
+  color: var(--blanco);
+  border-radius: 4px;
+  padding: 5px 8px;
+  /* margin: auto; */
+  /* display: inherit; */
+}
+
+header button.burger-menu i {}
