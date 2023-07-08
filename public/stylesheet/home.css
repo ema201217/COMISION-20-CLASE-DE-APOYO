@@ -1,0 +1,164 @@
+/* MOBILE */
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.home .text-container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.home .text-container.one {
+  color: red;
+  /* flex-grow: 1; */
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.home .text-container.two {
+  color: blue;
+  flex-grow: 1;
+}
+
+.home .text-container.three {
+  color: green;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.home .text-container.four {
+  color: pink;
+  flex-grow: 1;
+  clip-path: polygon(0 0, 44% 100%, 123% -39%);
+}
+
+.home .text-container.five {
+  color: cyan;
+}
+
+.home .text-container.one img {
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    background-color: black;
+}
+
+.home .text-container.two img {
+    height: 80%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.home .text-container.three img {
+    height: 100%;
+    object-fit: contain;
+    background-image: url(https://st4.depositphotos.com/4749861/25333/i/450/depositphotos_253332156-stock-photo-landscapes-image-of-mt-fuji.jpg);
+    background-size: 70px;
+}
+
+.home .text-container.four img {
+    object-fit: contain;
+    height: 100%;
+    background: rgb(120 127 163);
+    background: radial-gradient(circle, rgba(63,94,251,1) 3%, rgb(154 75 176 / 85%) 16%, rgb(102 93 225) 25%, rgb(59 37 42) 100%);
+}
+
+.home .text-container.five img {
+    height: 100%;
+    transform: scale(4) translate(3px, 30px);
+}
+
+.home .text-container img {
+}
+
+.home .text-container .text {
+  text-align: justify;
+}
+
+
+/* TABLET */
+@media (min-width:768px) {
+
+  .home {
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .home .text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .home .text-container.one {}
+
+  .home .text-container.two {
+    flex-grow: 0;
+  }
+
+  .home .text-container.three {}
+
+  .home .text-container.four {}
+
+  .home .text-container.five {}
+
+
+  .home .text-container.one img {}
+
+  .home .text-container.two img {}
+
+  .home .text-container.three img {}
+
+  .home .text-container.four img {}
+
+  .home .text-container.five img {}
+
+  .home .text-container img {}
+
+  .home .text-container .text {}
+
+}
+
+/* DESKTOP */
+@media (min-width:1024px) {
+
+  .home {}
+
+  .home .text-container {}
+
+  .home .text-container.one {
+    flex-grow: 1;
+  }
+
+  .home .text-container.two {}
+
+  .home .text-container.three {}
+
+  .home .text-container.four {}
+
+  .home .text-container.five {}
+
+  .home .text-container.one img {}
+
+  .home .text-container.two img {}
+
+  .home .text-container.three img {}
+
+  .home .text-container.four img {}
+
+  .home .text-container.five img {}
+
+  .home .text-container img {}
+
+  .home .text-container .text {}
+
+}

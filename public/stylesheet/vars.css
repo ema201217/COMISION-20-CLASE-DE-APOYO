@@ -1,0 +1,6 @@
+:root {
+  --box-blue: {
+    border:1px solid blue;
+    color:blue;
+  };
+}

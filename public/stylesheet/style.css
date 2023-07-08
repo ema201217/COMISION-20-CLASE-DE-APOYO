@@ -1,0 +1,16 @@
+/* IMPORT FONT */
+
+
+/* GENERAL */
+@import 'general.css';
+@import 'reutilise.css';
+@import 'vars.css';
+@import 'header.css';
+@import 'footer.css';
+
+/* IMPORT VIEWS */
+@import 'home.css';
+@import 'detalleProducto.css';
+@import 'login.css';
+@import 'registro.css';
+@import 'carrito.css';
