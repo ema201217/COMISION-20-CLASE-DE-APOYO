@@ -1,0 +1,12 @@
+/* BACKGROUND */
+.bg-danger-local {
+  background-color: rgb(247, 39, 146) !important;
+}
+
+.bg-danger-local.active {
+  background-color: aqua !important;
+}
+
+.bottom-0-local {
+  bottom:-30px;
+}

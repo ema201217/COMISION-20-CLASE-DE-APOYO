@@ -1,0 +1,37 @@
+@import 'reutilizable.css';
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.contenedor-buscador {
+  border:1px solid rgb(232, 232, 232);
+  display: flex;
+  width: 300px;
+  background-color: white;
+  padding: 5px 8px !important;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.input-buscador {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  outline:none;
+  color: gray;
+} 
+
+.input-buscador::placeholder {
+  color:red;
+}
+
+.boton-buscador {
+  border: none;
+  background-color: transparent;
+  border-left:1px solid rgb(232, 232, 232);
+}
+
+.boton-buscador:hover {
+  background-color: rgb(232, 232, 232);
+}
