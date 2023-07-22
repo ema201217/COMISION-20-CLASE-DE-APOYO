@@ -17,4 +17,16 @@ app.get("/input-require", (req, res) => {
   res.sendFile(path.join(__dirname, "./views/input-require.html"));
 });
 
+app.get("/positions", (req, res) => {
+  res.sendFile(path.join(__dirname, "./views/positions.html"));
+});
+
+app.get("/transitions-animations", (req, res) => {
+  res.sendFile(path.join(__dirname, "./views/transitions-animations.html"));
+});
+
+app.get("/gallery-images", (req, res) => {
+  res.sendFile(path.join(__dirname, "./views/gallery-images.html"));
+});
+
 app.listen(3000, () => console.log(`http://localhost:3000`));

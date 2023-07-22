@@ -8,5 +8,38 @@
 }
 
 .bottom-0-local {
-  bottom:-30px;
+  bottom: -30px;
+}
+
+
+
+/* BUTTONS */
+button.btn_local {
+  padding: 10px 15px;
+  margin: 2px;
+  border: none;
+  background-color: rgba(255,255, 255, .8);
+  border-radius: 6px;
+
+  transition-property: background;
+  transition-duration: .2s;
+  transition-timing-function: ease-in;
+}
+
+button.btn_local:hover {
+  background-color: rgba(255,255, 255, 1 );
+}
+
+button.btn_local:active {
+  outline:5px solid lightblue;
+}
+
+/* btn green */
+button.btn_success_local{
+  background-color: rgb(68, 219, 68);
+  color: white;
+}
+
+button.btn_success_local:hover{
+  background-color: rgb(40, 172, 40);
 }

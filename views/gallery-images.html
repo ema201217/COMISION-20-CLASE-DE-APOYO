@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEARCH BAR</title>
+
+  <!-- BOOTSTRAP STYLES -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- BOOTSTRAP JAVASCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="/js/gallery-images.js" defer></script>
+  <!-- STYLES LOCAL -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PRACTICAS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/carousel-bootstrap">Carousel Bootstrap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/slider-glider">Slider Glider</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/input-require">Input Require</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/positions">Positions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/transitions-animations">Transition/Animations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/gallery-images">Gallery Images</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-4 d-flex w-100 align-items-center">
+
+
+          <!-- The grid: four columns -->
+          <div class="row_gallery d-flex flex-column align-items-start">
+            <div class="column_gallery">
+              <img src="https://http2.mlstatic.com/D_NQ_NP_2X_951905-MLA44915412084_022021-F.webp" alt="Nature" style="object-fit: contain;"
+                onclick="myFunction(this);">
+            </div>
+            <div class="column_gallery">
+              <img src="https://http2.mlstatic.com/D_NQ_NP_2X_838835-MLA44915265579_022021-F.webp" alt="Snow" style="object-fit: contain;"
+                onclick="myFunction(this);">
+            </div>
+            <div class="column_gallery">
+              <img src="https://http2.mlstatic.com/D_NQ_NP_2X_826810-MLA44915412189_022021-F.webp" alt="Mountains" style="object-fit: contain;"
+                onclick="myFunction(this);">
+            </div>
+            <div class="column_gallery">
+              <img src="https://http2.mlstatic.com/D_NQ_NP_2X_795835-MLA49011477232_022022-F.webp" alt="Lights" style="object-fit: contain;"
+                onclick="myFunction(this);">
+            </div>
+          </div>
+
+          <!-- The expanding image container -->
+          <div class="container grow-1">
+            <!-- Close the image -->
+          <!--   <span onclick="this.parentElement.style.display='none'" class="closebtn_gallery">&times;</span> -->
+
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width:100%;height: 400px;object-fit: contain;
+            border: 1px solid rgba(128, 128, 128, 0.288);"
+              src="https://http2.mlstatic.com/D_NQ_NP_2X_951905-MLA44915412084_022021-F.webp">
+
+            <!-- Image text -->
+            <div id="imgtext"></div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </main>
+
+</body>
+
+</html>

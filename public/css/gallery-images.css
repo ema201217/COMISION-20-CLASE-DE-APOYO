@@ -1,0 +1,53 @@
+/* The grid: Four equal columns that floats next to each other */
+.column_gallery {
+ /*  float: left; */
+  width: 150px;
+  height: 100px;
+  
+}
+
+/* Style the images inside the grid */
+.column_gallery img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+.column_gallery img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row_gallery:after {
+  content: "";
+/*   display: table;
+  clear: both; */
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container_gallery {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn_gallery {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  color: black;
+}
