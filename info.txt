@@ -1,0 +1,9 @@
+1° app (configuraciones y middleware - desde app se require las rutas/enrutadores) 
+
+--> 
+
+2° routes (rutas con verbo HTTP (GET, POST, PUT, PATCH y DELETE) - desde el archivo de ruta se require el controlador correspondiente a la entidad) 
+
+--> 
+
+3° controllers (controla que el flujo de ejecución y la lógica de negocio sea la correcta)
